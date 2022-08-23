@@ -4,7 +4,7 @@ var chat=[1,2,3,4,5,6,7,8,9,10]
         window.onload = function exampleFunction() {
                 var x =document.cookie.split(";")[0].split("=")[1].split(" ")
                 from=x[1]
-                //document.getElementById("username").innerHTML="hi "+x[0]
+                document.getElementById("username").innerHTML=x[0]
                 update()
             }
             window.onbeforeunload = function () {
